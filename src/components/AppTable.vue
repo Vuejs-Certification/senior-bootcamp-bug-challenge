@@ -84,7 +84,7 @@ watch(
           v-for="(row, index) in rows"
           :key="index"
           :row="row"
-          :isSelected="modelValue.includes(row)"
+          :selectedRows="modelValue"
           @toggle-select="toggleRowSelection(row)"
         />
       </tbody>

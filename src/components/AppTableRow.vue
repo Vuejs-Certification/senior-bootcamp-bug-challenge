@@ -4,20 +4,20 @@ defineProps({
     type: Object,
     required: true,
   },
-  isSelected: {
-    type: Boolean,
-    default: false,
+  selectedRows: {
+    type: Array,
+    required: true,
   },
 });
 
 const emit = defineEmits(["toggle-select"]);
 </script>
 <template>
-  <tr :class="{ 'bg-blue-50': isSelected }">
+  <tr :class="{ 'bg-blue-50': selectedRows.includes(row) }">
     <td class="px-4 py-2 border-b">
       <input
         type="checkbox"
-        :checked="isSelected"
+        :checked="selectedRows.includes(row)"
         @change="emit('toggle-select')"
         class="w-5 h-5 text-blue-600 form-checkbox"
       />
