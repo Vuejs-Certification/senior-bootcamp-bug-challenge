@@ -19,4 +19,4 @@ When selecting a row in the table all `AppTableRow` components will be re-render
 
 > 💡 HINT: We have added a console log that runs every time a row is re-rendered. Check the console for a message like: "Rendered row with id: [row id here]" to help debug the unnecessary row renders
 
-![screenshot of the solution](./screenshot.gif)
+![screenshot of the solution](https://raw.githubusercontent.com/Vuejs-Certification/senior-bootcamp-bug-challenge/refs/heads/main/screenshot.gif)
