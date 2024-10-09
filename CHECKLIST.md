@@ -1,1 +1,3 @@
--
+- Selecting 1 table row does not trigger the re-render of all rows
+- Selecting 1 table row only re-renders the selected row
+- The console messages confirm the previous too statements
