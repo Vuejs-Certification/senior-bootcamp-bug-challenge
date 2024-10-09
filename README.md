@@ -1,6 +1,6 @@
 ---
 difficulty: 2
-tags: Code Challenge, Exercise Challenge, Vue 3
+tags: Code Challenge, Bug Fixing Challenge, Vue 3
 ---
 
 # Employee Table Bug Challenge
